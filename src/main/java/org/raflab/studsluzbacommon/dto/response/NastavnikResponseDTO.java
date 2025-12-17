@@ -21,7 +21,7 @@ public class NastavnikResponseDTO {
     private String email;
     private String brojTelefona;
     private String adresa;
-    private Set<ZvanjeResponseDTO> zvanja;
+    private Set<NastavnikZvanjeResponseDTO> zvanja;
     private Set<NastavnikObrazovanjeResponseDTO> obrazovanja;
 
     private LocalDate datumRodjenja;

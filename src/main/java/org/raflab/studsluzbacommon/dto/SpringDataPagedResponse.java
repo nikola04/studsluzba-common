@@ -1,5 +1,6 @@
 package org.raflab.studsluzbacommon.dto;
 
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,7 +14,6 @@ import java.util.List;
 public class SpringDataPagedResponse<T> {
 
     private List<T> content;
-
     @JsonProperty("page")
     private PageMetadata metadata;
 
