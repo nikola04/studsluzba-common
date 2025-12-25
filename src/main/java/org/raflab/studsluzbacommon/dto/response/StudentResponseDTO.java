@@ -18,18 +18,14 @@ public class StudentResponseDTO {
     private Integer godinaUpisa;
     private LocalDate datumRodjenja;
     private String mestoRodjenja;
-    private String mestoPrebivalista;
     private String drzavaRodjenja;
     private String drzavljanstvo;
     private String nacionalnost;
     private Character pol;
-    private String adresa;
     private String brojTelefonaMobilni;
-    private String brojTelefonaFiksni;
     private String privatniEmail;
     private String fakultetEmail;
     private String brojLicneKarte;
-    private String licnuKartuIzdao;
     private String mestoStanovanja;
     private String adresaStanovanja;
     private Double uspehPrijemni;
