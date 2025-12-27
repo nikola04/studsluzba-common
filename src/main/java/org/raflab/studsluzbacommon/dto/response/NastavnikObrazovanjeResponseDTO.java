@@ -4,7 +4,11 @@ import lombok.Data;
 
 @Data
 public class NastavnikObrazovanjeResponseDTO {
-    private Long nastavnikId;
-    private Long visokoskolskaUstanovaId;
-    private Long vrstaStudijaId;
+    private Long id;
+
+    private NastavnikResponseDTO nastavnik;
+
+    private VisokoskolskaUstanovaResponseDTO visokoskolskaUstanova;
+
+    private VrstaStudijaResponseDTO vrstaStudija;
 }
