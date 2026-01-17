@@ -1,0 +1,14 @@
+package org.raflab.studsluzbacommon.dto.response;
+
+import lombok.Data;
+
+import java.time.LocalDate;
+
+@Data
+public class IspitPrijavaResponse {
+    private Long id;
+    private Long studentIndeksId;
+    private LocalDate datumPrijave;
+    private IspitResponse ispit;
+    private IspitIzlazakResponse ispitIzlazak;
+}
